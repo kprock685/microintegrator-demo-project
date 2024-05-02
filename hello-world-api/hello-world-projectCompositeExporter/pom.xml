@@ -4,15 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>wso2.sampleHelloWorld</groupId>
-    <artifactId>hello</artifactId>
+    <artifactId>hello-world-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <groupId>wso2.sampleHelloWorld</groupId>
-  <artifactId>helloCompositeExporter</artifactId>
+  <artifactId>hello-world-projectCompositeExporter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
-  <name>helloCompositeExporter</name>
-  <description>helloCompositeExporter</description>
+  <name>hello-world-projectCompositeExporter</name>
+  <description>hello-world-projectCompositeExporter</description>
   <properties>
     <wso2.sampleHelloWorld.metadata_._HelloWorld_swagger>capp/EnterpriseServiceBus</wso2.sampleHelloWorld.metadata_._HelloWorld_swagger>
     <wso2.sampleHelloWorld.api_._HelloWorld>capp/EnterpriseServiceBus</wso2.sampleHelloWorld.api_._HelloWorld>
@@ -92,7 +92,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-plugin</artifactId>
-        <version>5.2.42</version>
+        <version>5.2.34</version>
         <extensions>true</extensions>
         <executions>
           <execution>
@@ -115,7 +115,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-deploy-plugin</artifactId>
-        <version>5.2.42</version>
+        <version>1.1.1</version>
         <extensions>true</extensions>
         <dependencies>
           <dependency>
